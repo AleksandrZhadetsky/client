@@ -30,4 +30,4 @@ jobs:
     - run: dir
     - run: npm ci
     - run: npm run build --if-present
-    - run: ng test --no-watch --no-progress --browsers=ChromeHeadless
+    - run: npm test --no-watch --no-progress --browsers=ChromeHeadless
